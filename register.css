@@ -1,0 +1,60 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-size: cover;
+    background-image: url("homepage/travel.jpg");
+}
+.nav-container {
+    display: flex;
+    justify-content: right;
+    margin-top: 2%;
+    margin-right: 8%;
+}
+.form-group {
+    margin-left: 40%;
+    margin-top: 2%;
+    border: 1px solid black;
+    margin-right: 30%;
+    padding: 20px;
+    border-radius: 20px;
+}
+input {
+    height: 33px;
+    width: 80%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    padding-left: 3%;
+    border: 1px;
+}
+.title-form {
+    margin-bottom: 5%;
+}
+.form-select {
+    height: 33px;
+    width: 70%;
+    margin-bottom: 3%;
+    border: 1px;
+    border-radius: 10px;
+    padding: 10px;
+}
+button {
+    margin-top: 2%;
+    height: 40px;
+    width: 70px;
+    margin-right: 10%;
+    border-radius: 5px;
+    border: 1px;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    .form-group {
+        width: 60%;
+        margin-top: 20%;
+        margin-left: 30%;
+    }
+}

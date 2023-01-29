@@ -1,0 +1,119 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-size: 100% 700px;
+    background-image: url("images/img1.jpg");
+    background-repeat: no-repeat;
+}
+.nav-container {
+    display: flex;
+    justify-content: right;
+    margin-top: 2%;
+    margin-right: 8%;
+}
+.nav-bg {
+    background-color: white;
+    width: 70%;
+    position: absolute;
+    height: 30px;
+    opacity: 30%;
+    border-radius: 20px;
+    height: 50px;
+    top: 18px ;
+    z-index: -1;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-left: 50px;
+    font-family: sans-serif;
+    margin-right: 50px;
+    font-weight: bold;
+    z-index: 1;
+    transition: color .5s ease-in-out, .1s ease-in-out;
+}
+
+a:hover {
+    color: blue;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 1%;
+}
+.btn-lp {
+    margin-left: 45%;
+    margin-top: 3%;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+    transition: 0.3s;
+}
+.btn-lp:hover {
+    background-image: linear-gradient(to right, rgb(175, 233, 233), rgb(123, 123, 247), blue
+    );
+    color: white;
+}
+.form-login {
+    margin-left: 30%;
+    margin-top: 9%;
+    border: 1px solid black;
+    margin-right: 30%;
+    padding: 20px;
+    border-radius: 20px;
+}
+label {
+    font-size: 25px;
+    color: white;
+}
+input {
+    height: 33px;
+    width: 80%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    padding-left: 3%;
+    border: 1px;
+}
+.title-form {
+    margin-bottom: 5%;
+}
+button {
+    margin-top: 2%;
+    height: 40px;
+    width: 70px;
+    margin-right: 10%;
+    border-radius: 5px;
+    border: 1px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: blue;
+    color: white;
+}
+@media screen and (max-width: 600px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    form {
+        width: 100%;
+        margin-top: 20%;
+    }
+    .intro {
+        width: 100%;
+        margin-right: 50%;
+    }
+    a {
+        margin-right: 10%;
+    }
+
+    
+}

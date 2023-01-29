@@ -1,0 +1,21 @@
+.activity-table tr td{
+    border: 1px solid black;
+    padding: 10px;
+}
+.activity-table th{
+    border: 1px solid black;
+    padding: 10px;
+}
+.activity-table {
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+.activity {
+    height: 630px;
+}
+@media(max-width: 600px){
+    .activity {
+        margin-left: 17%;
+    }
+}
